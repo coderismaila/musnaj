@@ -1,0 +1,135 @@
+seo:
+  title: MUSNAJ Electrical Concept Ltd
+  description: Delivering innovative, reliable, and sustainable electrical engineering, power distribution, and renewable energy solutions across Nigeria.
+title: Power Distribution & Renewable Energy Engineering Solutions
+description: Delivering innovative, reliable, and sustainable electrical engineering services with strong expertise in distribution infrastructure and clean energy systems.
+hero:
+  links:
+    - label: Contact Us
+      icon: i-lucide-mail
+      trailing: true
+      color: primary
+      to: /
+      size: xl
+    - label: View Projects
+      icon: i-lucide-briefcase-business
+      size: xl
+      color: neutral
+      variant: outline
+      to: /project
+sections:
+  - title: "[Our Services]{.text-primary}"
+    description: Engineering solutions spanning power distribution, electrical infrastructure development, and renewable energy deployment.
+    headline: What We Do
+    reverse: true
+    orientation: horizontal
+    images:
+      mobile: /images/lightbulb.svg
+      desktop: /images/lightbulb.svg
+    features:
+      - title: Power Distribution Infrastructure
+        description: Design, construction, installation, and maintenance of 33/11kV and 11/0.415kV distribution networks and substations.
+        icon: i-lucide-utility-pole
+        class: border-l border-primary pl-4
+      - title: Electrical Installations & Switchgear
+        description: Installation of control panels, switchgear, and industrial/commercial wiring.
+        icon: i-lucide-unplug
+        class: border-l border-default pt-4 pl-4
+      - title: Protection, Metering & Testing
+        description: Comprehensive electrical protection, metering solutions, diagnostic testing, and system reliability improvement.
+        icon: i-lucide-gauge
+        class: border-l border-default pt-4 pl-4
+      - title: Renewable Energy Solutions
+        description: Solar power system design, installation, battery storage, and hybrid systems for commercial and industrial clients.
+        icon: i-lucide-battery-plus
+        class: border-l border-default pt-4 pl-4
+      - title: Maintenance & Technical Consulting
+        description: Preventive and corrective maintenance, project management, and technical advisory services.
+        icon: i-lucide-wrench
+        class: border-l border-default pt-4 pl-4
+
+  - title: "[Why Choose Us]{.text-primary}"
+    description: Our operations are led by seasoned professionals and executed by a highly skilled technical workforce dedicated to top-tier project delivery.
+    headline: Our Strengths
+    reverse: false
+    orientation: horizontal
+    images:
+      mobile: /images/handshake.svg
+      desktop: /images/handshake.svg
+    features:
+      - title: Experienced Leadership
+        description: Led by Engn. Tech. Mustapha Gago, a COREN-registered engineer with 19 years of progressive experience in power distribution.
+        icon: i-lucide-badge-check
+        class: border-l border-primary pl-4
+      - title: Skilled Field Workforce
+        description: Over 15 highly trained linesmen, cable jointers, and electrical fitters experienced in network construction and maintenance.
+        icon: i-lucide-users
+        class: border-l border-default pt-4 pl-4
+      - title: Quality & Safety Assurance
+        description: Rigorous adherence to safety protocols and quality management ensures reliable and secure project execution.
+        icon: i-lucide-shield-check
+        class: border-l border-default pt-4 pl-4
+      - title: Proven Project Delivery
+        description: Successful execution of power distribution and renewable energy projects for industrial and institutional clients.
+        icon: i-lucide-check-circle
+        class: border-l border-default pt-4 pl-4
+      - title: Sustainable Engineering
+        description: Integration of modern technologies and renewable energy to deliver efficient and future-ready solutions.
+        icon: i-lucide-leaf
+        class: border-l border-default pt-4 pl-4
+
+features:
+  title: Some of our recent [projects]{.text-primary}
+  description: A showcase of executed projects demonstrating our capacity in distribution infrastructure and renewable energy systems.
+  items:
+    - title: 1000kVA, 33/0.400kV Distribution Substation & Control Room – ASAD Lubricant Ltd, Kano
+      description: Complete design and construction of a high-capacity distribution substation to support industrial operations.
+      icon: i-lucide-wand-sparkles
+      to: /project/asad-lubricant
+      image: /images/projects/asad/asad1.jpeg
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+
+    - title: 1000kVA, 33/0.400kV Distribution Substation & Control Room – ASAD Sacks/CNG Ltd, Kano
+      description: Engineering, construction, and commissioning of a full distribution substation and control facility.
+      icon: i-lucide-wand-sparkles
+      to: /project/asad-sacks
+      image: /images/projects/asad/asad1.jpeg
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+
+    - title: 300kVA, 33/0.400kV Distribution Substation – ASAD CNG, Maraban Jos, Kaduna
+      description: Delivery of a robust distribution substation solution for industrial operations.
+      icon: i-lucide-wand-sparkles
+      to: /project/asad-maraban
+      image: /images/projects/asad/asad1.jpeg
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+
+    - title: 200kW/250kWh Solar Power System – Bungudu Fertilizer Company, Zamfara
+      description: Deployment of a commercial-scale solar hybrid system for sustainable energy supply.
+      icon: i-lucide-sun
+      to: /project/bungudu-fertilizer
+      image: /images/projects/asad/asad1.jpeg
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+
+    - title: 500kVA, 33/0.400kV Distribution Substation – Federal University, Gusau
+      description: Turnkey construction of a distribution substation to support campus power infrastructure.
+      icon: i-lucide-wand-sparkles
+      to: /project/federal-university-gusau
+      image: /images/projects/asad/asad1.jpeg
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+
+cta:
+  title: Delivering Reliable Power Engineering Solutions
+  description: Partner with us for high-quality electrical infrastructure, power distribution, and renewable energy projects designed for long-term performance.
+  links:
+    - label: Start Your Project
+      to: "#"
+      trailingIcon: i-lucide-arrow-right
+    - label: View Projects
+      to: /project
+      variant: subtle
+      icon: i-lucide-briefcase-business
