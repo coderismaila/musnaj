@@ -94,7 +94,7 @@ features:
       description: Engineering, construction, and commissioning of a full distribution substation and control facility.
       icon: i-lucide-wand-sparkles
       to: /project/asad-sacks
-      image: /images/projects/asad/asad1.jpeg
+      image: /images/projects/asad/1000kva-asad-sacks.jpeg
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
 
@@ -102,7 +102,7 @@ features:
       description: Delivery of a robust distribution substation solution for industrial operations.
       icon: i-lucide-wand-sparkles
       to: /project/asad-maraban
-      image: /images/projects/asad/asad1.jpeg
+      image: /images/projects/asad/cng-generators.png
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
 
@@ -110,7 +110,7 @@ features:
       description: Deployment of a commercial-scale solar hybrid system for sustainable energy supply.
       icon: i-lucide-sun
       to: /project/bungudu-fertilizer
-      image: /images/projects/asad/asad1.jpeg
+      image: /images/projects/asad/bungudu-fertilizer.png
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
 
@@ -118,7 +118,7 @@ features:
       description: Turnkey construction of a distribution substation to support campus power infrastructure.
       icon: i-lucide-wand-sparkles
       to: /project/federal-university-gusau
-      image: /images/projects/asad/asad1.jpeg
+      image: /images/projects/asad/fug-gusau.png
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
 

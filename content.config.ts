@@ -106,4 +106,49 @@ export const collections = {
       badge: z.object({ label: z.string().nonempty() }),
     }),
   }),
+  about: defineCollection({
+    source: "2.about.yml",
+    type: "page",
+    schema: z.object({
+      title: z.string().nonempty(),
+      description: z.string().nonempty(),
+      mission: z.string().nonempty(),
+      vision: z.string().nonempty(),
+      overview: z.object({
+        title: z.string().nonempty(),
+        description: z.string().nonempty(),
+      }),
+      leadership: z.object({
+        title: z.string().nonempty(),
+        members: z.array(
+          z.object({
+            name: z.string().nonempty(),
+            role: z.string().nonempty(),
+            bio: z.string().nonempty(),
+            qualifications: z.array(z.string().nonempty()),
+            careers: z.array(z.object({
+              title: z.string().nonempty(),
+              description: z.string().nonempty(),
+              date: z.string().nonempty(),
+              icon: z.string(),
+            })),
+            image: createImageSchema(),
+          }),
+        ),
+      }),
+      values: z.object({
+        title: z.string().nonempty(),
+        items: z.array(
+          z.object({
+            title: z.string().nonempty(),
+            description: z.string().nonempty(),
+            icon: z.string().nonempty().editor({ input: "icon" }),
+          }),
+        ),
+      }),
+      cta: createBaseSchema().extend({
+        links: z.array(createLinkSchema()),
+      }),
+    }),
+  }),
 };

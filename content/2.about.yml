@@ -1,0 +1,90 @@
+title: About Us
+description: >
+  MUSNAJ Electrical Concept Ltd is an indigenous Nigerian company incorporated in 2024, established to provide innovative, reliable, and sustainable solutions in the power distribution and renewable energy sub-sector.
+  With a strong foundation of technical expertise, industry experience, and a dedicated workforce, we deliver services that meet global standards in design, construction, installation, and maintenance of electrical infrastructure.
+mission: >
+  To provide reliable, efficient, and sustainable electrical engineering solutions that enhance power distribution networks and exceed client expectations.
+vision:
+  To be recognized as a leading indigenous electrical engineering company in Nigeria, known for excellence, innovation, safety, and integrity.
+overview:
+  title: Who We Are
+  description: >
+    Incorporated in 2024, MUSNAJ Electrical Concept Ltd operates within the power
+    distribution and renewable energy sub-sector. The company is driven by deep
+    technical expertise, field-tested experience, and a commitment to global best
+    practices in electrical infrastructure design, construction, and maintenance.
+
+leadership:
+  title: Leadership
+  members:
+    - name: Engr. Tech. Mustapha Gago
+      role: Managing Director / Chief Executive Officer
+      bio: >
+        Engr. Tech. Mustapha Gago is a COREN-registered engineering technologist with
+        over 19 years of progressive experience in Nigeria’s power distribution
+        sector. His career spans roles from Linesman to Regional Technical Manager
+        and Technical Officer at distribution company headquarters. He brings deep
+        expertise in project execution, system protection, metering, and network
+        reliability.
+      qualifications:
+        - MNATE
+        - MCIPEN
+        - MNIPE
+        - CPET
+        - Reg. COREN
+      careers:
+        - title: Lines-Man – Kano Electricity Distribution Company
+          description: dedicated
+          date: 2006
+        - title: O&M Officer – Kano Electricity Distribution Company
+          description: dedicated
+          date: 2010
+        - title: PC&M Officer - Kaduna Electricity Distribution Company
+          description: dedicated
+          date: 2015
+        - title: Team Lead, PC&M - Kaduna Electricity Distribution Company
+          description: dedicated
+          date: 2017
+        - title: Regional Technical Manager - Kaduna Electricity Distribution Company
+          description: dedicated
+          date: 2019
+        - title: Area Manager - Kaduna Electricity Distribution Company
+          description: dedicated
+          date: 2022
+        - title: Technical Officer – Kaduna Electric HQ
+          description: dedicated
+          date: 2024
+      image:
+        src: /Gago.png
+        alt: Engr. Tech. Mustapha Gago
+
+values:
+  title: Our Core Values
+  items:
+    - title: Professionalism
+      description: Delivering every project with technical competence and discipline.
+      icon: i-lucide-award
+    - title: Integrity
+      description: Upholding honesty, transparency, and ethical engineering practices.
+      icon: i-lucide-shield-check
+    - title: Safety & Quality
+      description: Prioritizing safety and compliance while maintaining high-quality standards.
+      icon: i-lucide-hard-hat
+    - title: Innovation
+      description: Applying modern engineering solutions and renewable technologies.
+      icon: i-lucide-lightbulb
+    - title: Customer-Centric Service
+      description: Designing solutions tailored to client needs and long-term value.
+      icon: i-lucide-users
+
+cta:
+  title: Delivering Reliable Power Engineering Solutions
+  description: Partner with us for high-quality electrical infrastructure, power distribution, and renewable energy projects designed for long-term performance.
+  links:
+    - label: Start Your Project
+      to: "#"
+      trailingIcon: i-lucide-arrow-right
+    - label: View Projects
+      to: /project
+      variant: subtle
+      icon: i-lucide-briefcase-business
