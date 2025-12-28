@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@nuxt/image",
     "nuxt-og-image",
+    "nuxt-resend",
   ],
   css: ["~/assets/css/main.css"],
   content: {

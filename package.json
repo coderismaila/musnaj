@@ -32,7 +32,8 @@
     "@nuxt/eslint-config": "^1.11.0",
     "eslint-plugin-format": "^1.0.2",
     "husky": "^9.1.7",
-    "lint-staged": "^16.2.7"
+    "lint-staged": "^16.2.7",
+    "nuxt-resend": "^0.0.2"
   },
   "lint-staged": {
     "*": "pnpm lint"
