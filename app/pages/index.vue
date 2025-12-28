@@ -115,6 +115,8 @@ useSeoMeta({
       <template #title>
         <MDC :value="page.cta.title" />
       </template>
+
+      <LazyStarsBg />
     </UPageCTA>
   </div>
 </template>

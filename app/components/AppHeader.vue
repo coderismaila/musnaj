@@ -17,7 +17,7 @@ const items = computed(() => [
   },
   {
     label: "Contacts",
-    to: "/contact",
+    to: "/contacts",
     active:
       activeHeadings.value.includes("contacts")
       && !activeHeadings.value.includes("about"),

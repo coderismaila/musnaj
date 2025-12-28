@@ -126,6 +126,11 @@ const { data: about } = await useAsyncData("about", () =>
       v-bind="about.cta"
       variant="subtle"
       class="overflow-hidden @container"
-    />
+    >
+      <template #title>
+        <MDC :value="about.cta.title" />
+      </template>
+      <LazyStarsBg />
+    </UPageCTA>
   </div>
 </template>
