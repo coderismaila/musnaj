@@ -9,7 +9,7 @@ hero:
       icon: i-lucide-mail
       trailing: true
       color: primary
-      to: /
+      to: /contact
       size: xl
     - label: View Projects
       icon: i-lucide-briefcase-business
@@ -127,7 +127,7 @@ cta:
   description: Partner with us for high-quality electrical infrastructure, power distribution, and renewable energy projects designed for long-term performance.
   links:
     - label: Start Your Project
-      to: "#"
+      to: /contact
       trailingIcon: i-lucide-arrow-right
     - label: View Projects
       to: /project

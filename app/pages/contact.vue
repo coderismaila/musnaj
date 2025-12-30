@@ -80,28 +80,22 @@ useSeoMeta({
                   Address
                 </h3>
                 <p class="text-gray-600 dark:text-gray-300">
-                  No. 15A, Ahmadu Bello Way,<br>
-                  Kaduna, Nigeria
+                  Suite 09, First Floor,AMSSCO Plaza, No. 11, Race Course Road, Opposite Murtala Square, Kaduna.
                 </p>
               </div>
             </div>
 
             <!-- Phone Numbers -->
             <div class="flex items-start space-x-4">
-              <UIcon name="i-lucide-phone" class="w-6 h-6 text-primary mt-1 flex-shrink-0" />
+              <UIcon name="i-lucide-phone" class="w-6 h-6 text-primary mt-1 shrink-0" />
               <div>
                 <h3 class="font-semibold mb-2">
                   Phone
                 </h3>
                 <div class="space-y-1">
                   <p class="text-gray-600 dark:text-gray-300">
-                    <a href="tel:+2348031234567" class="hover:text-primary transition-colors">
-                      +234 803 123 4567
-                    </a>
-                  </p>
-                  <p class="text-gray-600 dark:text-gray-300">
-                    <a href="tel:+2347012345678" class="hover:text-primary transition-colors">
-                      +234 701 234 5678
+                    <a href="tel:+2348034991503" class="hover:text-primary transition-colors">
+                      +234 803 499 1503
                     </a>
                   </p>
                 </div>
@@ -110,20 +104,15 @@ useSeoMeta({
 
             <!-- Email Addresses -->
             <div class="flex items-start space-x-4">
-              <UIcon name="i-lucide-mail" class="w-6 h-6 text-primary mt-1 flex-shrink-0" />
+              <UIcon name="i-lucide-mail" class="w-6 h-6 text-primary mt-1 shrink-0" />
               <div>
                 <h3 class="font-semibold mb-2">
                   Email
                 </h3>
                 <div class="space-y-1">
                   <p class="text-gray-600 dark:text-gray-300">
-                    <a href="mailto:info@musnaj.com" class="hover:text-primary transition-colors">
-                      info@musnaj.com
-                    </a>
-                  </p>
-                  <p class="text-gray-600 dark:text-gray-300">
-                    <a href="mailto:projects@musnaj.com" class="hover:text-primary transition-colors">
-                      projects@musnaj.com
+                    <a href="mailto:info@musnajelectricals.com" class="hover:text-primary transition-colors">
+                      info@musnajelectricals.com
                     </a>
                   </p>
                 </div>
@@ -190,7 +179,7 @@ useSeoMeta({
                 v-model="state.phone"
                 type="tel"
                 placeholder="Enter your phone number"
-                size="lg"
+                size="xl"
                 class="w-full"
               />
             </UFormField>
