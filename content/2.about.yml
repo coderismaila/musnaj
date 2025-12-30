@@ -35,24 +35,31 @@ leadership:
       careers:
         - title: Lines-Man – Kano Electricity Distribution Company
           description: dedicated
+          icon: i-lucide-utility-pole
           date: 2006
         - title: O&M Officer – Kano Electricity Distribution Company
           description: dedicated
+          icon: i-lucide-utility-pole
           date: 2010
         - title: PC&M Officer - Kaduna Electricity Distribution Company
           description: dedicated
+          icon: i-lucide-shield-check
           date: 2015
         - title: Team Lead, PC&M - Kaduna Electricity Distribution Company
           description: dedicated
+          icon: i-lucide-shield-check
           date: 2017
         - title: Regional Technical Manager - Kaduna Electricity Distribution Company
           description: dedicated
+          icon: i-lucide-house-plug
           date: 2019
         - title: Area Manager - Kaduna Electricity Distribution Company
           description: dedicated
+          icon: i-lucide-house
           date: 2022
         - title: Technical Officer – Kaduna Electric HQ
           description: dedicated
+          icon: i-lucide-house-plug
           date: 2024
       image:
         src: /Gago.png
@@ -82,7 +89,7 @@ cta:
   description: Partner with us for high-quality electrical infrastructure, power distribution, and renewable energy projects designed for long-term performance.
   links:
     - label: Start Your Project
-      to: "#"
+      to: /contact
       trailingIcon: i-lucide-arrow-right
     - label: View Projects
       to: /project

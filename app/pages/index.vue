@@ -90,6 +90,11 @@ useSeoMeta({
           height="80"
         />
         <NuxtImg
+          src="/images/partners/aedc.png"
+          alt="aedc"
+          width="80"
+        />
+        <NuxtImg
           src="/images/partners/ke.png"
           alt="kaduna electric"
           width="80"
