@@ -136,6 +136,8 @@ useSeoMeta({
           </div>
         </div>
 
+        <LazyOfficeLocation />
+
         <!-- Contact Form -->
         <div>
           <h2 class="text-2xl font-bold mb-6">

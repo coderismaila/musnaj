@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "nuxt-og-image",
     "nuxt-resend",
+    "nuxt-maplibre",
   ],
   css: ["~/assets/css/main.css"],
   content: {
@@ -19,6 +20,15 @@ export default defineNuxtConfig({
       noApiRoute: false,
     },
   },
+
+  vite: {
+    optimizeDeps: {
+      include: [
+        "maplibre-gl",
+      ],
+    },
+  },
+
   nitro: {
     prerender: {
       routes: ["/"],
