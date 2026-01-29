@@ -121,7 +121,7 @@ useSeoMeta({
 
             <!-- Business Hours -->
             <div class="flex items-start space-x-4">
-              <UIcon name="i-lucide-clock" class="w-6 h-6 text-primary mt-1 flex-shrink-0" />
+              <UIcon name="i-lucide-clock" class="w-6 h-6 text-primary mt-1 shrink-0" />
               <div>
                 <h3 class="font-semibold mb-2">
                   Business Hours
@@ -136,7 +136,17 @@ useSeoMeta({
           </div>
         </div>
 
-        <LazyOfficeLocation />
+        <div class="w-full flex">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d517.5629664178846!2d7.44086708341344!3d10.536650490302621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1samssco%20kaduna!5e1!3m2!1sen!2sng!4v1769650691894!5m2!1sen!2sng"
+            width="100%"
+            height="auto"
+            style="border:0;"
+            allowfullscreen="true"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          />
+        </div>
 
         <!-- Contact Form -->
         <div>

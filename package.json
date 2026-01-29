@@ -21,7 +21,6 @@
     "@unhead/vue": "^2.0.19",
     "eslint": "^9.39.1",
     "nuxt": "^4.2.1",
-    "nuxt-maplibre": "1.2.0",
     "nuxt-og-image": "5.1.13",
     "typescript": "^5.9.3",
     "unstorage": "^1.17.3",
