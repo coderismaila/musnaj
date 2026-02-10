@@ -80,45 +80,37 @@ sections:
 
 features:
   title: Some of our recent [projects]{.text-primary}
-  description: A showcase of executed projects demonstrating our capacity in distribution infrastructure and renewable energy systems.
+  description: Selected projects demonstrating our experience in power distribution infrastructure and utility collaboration.
   items:
-    - title: 1000kVA, 33/0.400kV Distribution Substation & Control Room – ASAD Lubricant Ltd, Kano
-      description: Complete design and construction of a high-capacity distribution substation to support industrial operations.
+    - title: 300kVA, 11/0.400kV Distribution Substation – ASAD Apartments, Kurmin Mashi, Kaduna
+      description: Design and construction of a 300kVA distribution substation to support residential power demand.
       icon: i-lucide-wand-sparkles
-      to: /project/asad-lubricant
-      image: /images/projects/asad/asad1.jpeg
+      to: /project/asad-apartments-kurmin-mashi
+      image: /images/projects/asad/asad_apartmnt_kmashi.jpeg
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
 
-    - title: 1000kVA, 33/0.400kV Distribution Substation & Control Room – ASAD Sacks/CNG Ltd, Kano
-      description: Engineering, construction, and commissioning of a full distribution substation and control facility.
-      icon: i-lucide-wand-sparkles
-      to: /project/asad-sacks
-      image: /images/projects/asad/1000kva-asad-sacks.jpeg
+    - title: Electrical Infrastructure Works – ASAD Medics MC, Kaduna
+      description: Execution of electrical installation and distribution works to support healthcare facility operations.
+      icon: i-lucide-stethoscope
+      to: /project/asad-medics
+      image: /images/projects/asad/asad_medics.jpeg
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
 
-    - title: 300kVA, 33/0.400kV Distribution Substation – ASAD CNG, Maraban Jos, Kaduna
-      description: Delivery of a robust distribution substation solution for industrial operations.
+    - title: 500kVA, 11/0.400kV Distribution Substation – ASAD Luxury Estate, Unguwar Rimi, Kaduna
+      description: Construction and commissioning of a 500kVA distribution substation for a premium residential estate.
       icon: i-lucide-wand-sparkles
-      to: /project/asad-maraban
-      image: /images/projects/asad/cng-generators.png
+      to: /project/asad-luxury-estate
+      image: /images/projects/asad/asad_apartmnt_urimi.jpeg
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
 
-    - title: 200kW/250kWh Solar Power System – Bungudu Fertilizer Company, Zamfara
-      description: Deployment of a commercial-scale solar hybrid system for sustainable energy supply.
-      icon: i-lucide-sun
-      to: /project/bungudu-fertilizer
-      image: /images/projects/asad/bungudu-fertilizer.png
-      ui:
-        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
-
-    - title: 500kVA, 33/0.400kV Distribution Substation – Federal University, Gusau
-      description: Turnkey construction of a distribution substation to support campus power infrastructure.
-      icon: i-lucide-wand-sparkles
-      to: /project/federal-university-gusau
-      image: /images/projects/asad/fug-gusau.png
+    - title: Kano Electric Works Order – Procurement of Distribution Materials for 33kV & 11kV Feeder Rehabilitation
+      description: Procurement and supply of distribution materials for rehabilitation of selected 33kV and 11kV feeders under Kano Electricity Distribution Plc.
+      icon: i-lucide-file-text
+      to: /project/kedco-works-order
+      image: /images/projects/asad/works_order_kedco.jpeg
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
 

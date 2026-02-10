@@ -2,7 +2,7 @@
 title: 1000kVA, 33/0.400kV Distribution Substation & Control Room – ASAD Lubricant Ltd, Kano
 description: Design, construction, installation, and commissioning of a 1000kVA, 33/0.400kV distribution substation and dedicated control room to provide reliable and stable power supply for ASAD Lubricant Ltd’s industrial operations in Kano.
 image:
-  src: /images/projects/asad/asad1.jpeg
+  src: /images/projects/asad/asad_lubricant.jpeg
 authors:
   - name: MUSNAJ Electrical Concept Ltd – Technical Team
     to: https://www.linkedin.com/company/
@@ -93,13 +93,7 @@ The project significantly enhanced **power reliability and operational efficienc
 
 ::pictures{orientation="horizontal"}
   :::div
-  ![Substation Transformer Installation](/images/projects/asad/asad1.jpg){.rounded-lg height="400" width="400"}
-  :::
-  :::div
-  ![Control Room Construction](/images/projects/asad/control-room.jpg){.rounded-lg height="400" width="400"}
-  :::
-  :::div
-  ![Testing and Commissioning](/images/projects/asad/commissioning.jpg){.rounded-lg height="400" width="400"}
+  ![Substation Transformer Installation](/images/projects/asad/asad_lubricant.jpeg){.rounded-lg height="400" width="400"}
   :::
 ::
 

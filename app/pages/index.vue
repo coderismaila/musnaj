@@ -69,8 +69,14 @@ useSeoMeta({
           :to="feature.to"
           reverse
           variant="soft"
+          width="300"
         >
-          <NuxtImg :src="feature.image" :alt="feature.title" />
+          <NuxtImg
+            :src="feature.image"
+            :alt="feature.title"
+            height="250"
+            width="250"
+          />
         </UPageCard>
       </UPageGrid>
     </UPageSection>
