@@ -43,8 +43,8 @@ async function onSubmit(event: FormSubmitEvent<ContactFormSchema>) {
 
 // SEO meta
 useSeoMeta({
-  title: "Contact Us - MUSNAJ Electrical Concept Ltd",
-  description: "Get in touch with MUSNAJ Electrical Concept Ltd for electrical engineering solutions, power distribution, and renewable energy projects in Nigeria.",
+  title: "Contact Us - Musnaj Electrical Concept Ltd",
+  description: "Get in touch with Musnaj Electrical Concept Ltd for electrical engineering solutions, power distribution, and renewable energy projects in Nigeria.",
 });
 </script>
 
@@ -53,7 +53,7 @@ useSeoMeta({
     <!-- Contact Information Section -->
     <UPageHero
       title="Contact Us"
-      description="Get in touch with MUSNAJ Electrical Concept Ltd for your electrical engineering and power distribution needs."
+      description="Get in touch with Musnaj Electrical Concept Ltd for your electrical engineering and power distribution needs."
       :ui="{
         container: 'md:pt-18 lg:pt-20',
         title: 'max-w-3xl mx-auto',

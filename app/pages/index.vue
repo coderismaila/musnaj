@@ -69,16 +69,24 @@ useSeoMeta({
           :to="feature.to"
           reverse
           variant="soft"
-          width="300"
         >
           <NuxtImg
             :src="feature.image"
             :alt="feature.title"
-            height="250"
-            width="250"
           />
         </UPageCard>
       </UPageGrid>
+
+      <UPageCTA
+        variant="naked"
+        :ui="{ container: 'py-0 sm:py-0 lg:py-0' }"
+        :links=" [{
+          label: 'View More',
+          variant: 'subtle',
+          trailingIcon: 'i-lucide-arrow-right',
+          to: '/project',
+        }]"
+      />
     </UPageSection>
 
     <USeparator :ui="{ border: 'border-primary/30' }" />

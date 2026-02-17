@@ -1,5 +1,5 @@
 seo:
-  title: MUSNAJ Electrical Concept Ltd
+  title: Musnaj Electrical Concept Ltd
   description: Delivering innovative, reliable, and sustainable electrical engineering, power distribution, and renewable energy solutions across Nigeria.
 title: Power Distribution & Renewable Energy Engineering Solutions
 description: Delivering innovative, reliable, and sustainable electrical engineering services with strong expertise in distribution infrastructure and clean energy systems.
@@ -110,7 +110,7 @@ features:
       description: Procurement and supply of distribution materials for rehabilitation of selected 33kV and 11kV feeders under Kano Electricity Distribution Plc.
       icon: i-lucide-file-text
       to: /project/kedco-works-order
-      image: /images/projects/asad/works_order_kedco.jpeg
+      image: /images/projects/asad/works_order_kedco.png
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
 
