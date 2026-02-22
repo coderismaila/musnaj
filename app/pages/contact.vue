@@ -30,15 +30,19 @@ const toast = useToast();
 async function onSubmit(event: FormSubmitEvent<ContactFormSchema>) {
   loading.value = true;
 
-  const response = await $fetch("/api/contact", { method: "POST", body: event.data });
-  if (response.error) {
-    toast.add({ title: "Error Sending Message", description: "We could not send message, please try again!" });
+  try {
+    const response = await $fetch("/api/contact", { method: "POST", body: event.data });
+    // eslint-disable-next-line no-console
+    console.info(response);
+    toast.add({ title: "Message sent", description: "Thank you for contacting us, we will reply shortly.", color: "success" });
+  }
+  catch (error) {
+    toast.add({ title: "Error Sending Message", description: "We could not send message, please try again!", color: "error" });
+    console.error(error);
+  }
+  finally {
     loading.value = false;
   }
-  toast.add({ title: "Message sent", description: "Thank you for contacting us, we will reply shortly.", color: "success" });
-  console.warn(event.data);
-
-  loading.value = false;
 }
 
 // SEO meta

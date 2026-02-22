@@ -25,6 +25,12 @@ export default defineNuxtConfig({
       routes: ["/"],
     },
   },
+
+  resend: {
+    // eslint-disable-next-line node/no-process-env
+    apiKey: process.env.NUXT_RESEND_API_KEY || "",
+  },
+
   eslint: {
     config: {
       standalone: false,
