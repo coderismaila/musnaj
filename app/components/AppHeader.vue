@@ -8,6 +8,10 @@ const items = computed(() => [
     active: route.path.startsWith("/project"),
   },
   {
+    label: "Gallery",
+    to: "/gallery",
+  },
+  {
     label: "About",
     to: "/about",
   },

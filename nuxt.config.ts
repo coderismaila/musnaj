@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "nuxt-og-image",
     "nuxt-resend",
+    "nuxt-easy-lightbox",
   ],
   css: ["~/assets/css/main.css"],
   content: {
